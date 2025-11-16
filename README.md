@@ -34,11 +34,8 @@ This project explains each major step of the pipeline — from preprocessing to 
 ---
 # Results
 -**I saved the output from a garde sheet i hade then integrated the webcam feature to scan sheets in realtime
-![Image-based OMR Result](output.jpg)
-![Webcam OMR Result](webcam.jpg)
+![Image-based OMR Result](output.png)
+
+![Webcam OMR Result](webcam.png)
 
 
-
-# 📁 Project Structure  
-
-Add template designer for custom sheets
