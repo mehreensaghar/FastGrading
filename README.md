@@ -2,20 +2,44 @@
 A step-by-step, from-scratch Optical Mark Recognition (OMR) project in Python using OpenCV — works on scanned images and realtime webcam scans.
 
 
-About
+# 📘 OptiMark – Optical Mark Recognition (OMR) in Python using OpenCV
 
-This repo contains a complete OMR pipeline implemented from scratch in Python using OpenCV. The code is split so each step is small and explained line-by-line in the notebook/script comments. You start by processing images of solved MCQ sheets, and when that is stable, you enable the webcam mode for realtime scoring.
+## 🔹 Introduction  
+**OptiMark** is a step-by-step Optical Mark Recognition (OMR) system built from scratch using **Python + OpenCV**.  
+It automatically detects, extracts, and grades MCQ answer sheets from:
 
-Features
+- 🖼️ **Static images** (solved MCQ papers)  
+- 🎥 **Realtime webcam feed**  
 
-Detect and align MCQ answer sheet automatically
+This project explains each major step of the pipeline — from preprocessing to contour detection to bubble recognition — making it ideal for learners and real-world automation use cases.
 
-Detect filled bubbles (dark marks) robustly
+---
 
-Support scanned/photographed images and realtime webcam scanning
+# 🚀 Features  
+- 📷 **Image-based OMR** – Upload any scanned/photographed MCQ sheet.  
+- 🎥 **Realtime Webcam Grading** – Automatically detect and score answers live.  
+- 🔍 **Bubble Detection** – Identifies filled vs. unfilled options reliably.  
+- 🧠 **Answer Comparison** – Compares detected answers with the answer key.  
+- 📊 **Score Calculation** – Generates instant results.  
+- 🧱 **From Scratch Implementation** – Every step explained clearly for beginners.  
+- 🖼️ **Result Visualization** – Shows detected contours, bubbles, and grading overlays.
 
-Generates per-student score summary
+---
 
-Visual debug overlays showing detected contours, bubbles, and chosen answers
+# Tech Stack  
+- **Python 3.x**  
+- **OpenCV** – image processing, contour detection, thresholding  
+- **NumPy** – numerical operations  
+- **Imutils** – helper functions  
+- **Webcam Module (OpenCV VideoCapture)** – real-time OMR  
 
-Step-by-step code with commentary (learn as you build)
+---
+# Results
+![Image-based OMR Result](images/result_image_mode.jpg)
+![Webcam OMR Result](images/result_webcam_mode.jpg)
+
+
+
+# 📁 Project Structure  
+
+Add template designer for custom sheets
